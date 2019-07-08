@@ -119,8 +119,13 @@ background-color: white;
 }
 #cta h1 {
   color: white;
-  width: 85%;
+  width: 60%;
   margin: auto;
+}
+@media (max-width: 1080px) {
+  #cta h1 {
+   font-size: 1.5rem; 
+  }
 }
 #footer {
   text-align: center;
