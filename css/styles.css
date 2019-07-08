@@ -139,15 +139,9 @@ background-color: white;
 
 @media (max-width: 1080px) {
   .iphone {
-    transform: rotate(5deg);
+    transform: rotate(0deg);
     text-align: center;
-  }
-  .relative {
-    height: 436px;
-    width: 450px;
-    position: relative;
-    top: 100px;
-    right: 13rem;
+    position: static;
   }
   #title {
     text-align: center;
