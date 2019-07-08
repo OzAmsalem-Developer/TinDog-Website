@@ -144,10 +144,10 @@ background-color: white;
   }
   .relative {
     height: 436px;
-    width: 400px;
+    width: 450px;
     position: relative;
     top: 100px;
-    right: 15.5rem;
+    right: 13rem;
   }
   #title {
     text-align: center;
