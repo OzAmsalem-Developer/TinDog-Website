@@ -112,9 +112,6 @@ background-color: white;
 .pricing-collum {
   padding: 2% 3%;
 }
-.nd-trow {
-  padding-left: 15%;
-}
 #cta {
   background-color: #ff4c68;
   text-align: center;
@@ -140,7 +137,6 @@ background-color: white;
 @media (max-width: 1080px) {
   .iphone {
     transform: rotate(0deg);
-    text-align: center;
     position: static;
   }
   #title {
