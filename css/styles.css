@@ -42,7 +42,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15% 3% 15%;
+  padding: 3% 5%;
 }
 
 .navbar {
@@ -89,7 +89,7 @@ background-color: white;
 }
 
 #testimonials {
-  padding: 7% 15%;
+  padding: 7% 5%;
   text-align: center;
   color: #fff;
   background-color: #ef8172;
@@ -115,11 +115,11 @@ background-color: white;
 #cta {
   background-color: #ff4c68;
   text-align: center;
-  padding: 2%;
+  padding: 1%;
 }
 #cta h1 {
   color: white;
-  width: 60%;
+  width: 40%;
   margin: auto;
 }
 #footer {
