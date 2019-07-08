@@ -42,7 +42,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 5%;
+  padding: 3% 5% 15%;
 }
 
 .navbar {
@@ -119,7 +119,7 @@ background-color: white;
 }
 #cta h1 {
   color: white;
-  width: 40%;
+  width: 85%;
   margin: auto;
 }
 #footer {
