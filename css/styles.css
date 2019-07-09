@@ -1,56 +1,62 @@
 body {
   font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', bold;
 }
 
 h1 {
-  font-family: 'Montserrat', Black;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
-  color: white;
+  color: #fff;
 }
 
 h2 {
-  font-family: 'Montserrat', bold;
   font-weight: 500;
   font-size: 3rem;
-  line-height: 4rem;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-family: 'Montserrat', bold;
   font-weight: bold;
-  color: black;
+  color: #000;
 }
 
 /* Title Section */
-
 #title {
   background-color: #ff4c68;
   color: white;
+  text-align: left;
 }
 
-.iphone {
+#title .container-fluid {
+  padding-top: 3%;
+}
+
+.title-img {
   transform: rotate(20deg);
   width: 60%;
   position: absolute;
 }
 
+.title-img-row {
+  padding-left: 15%;
+}
+
+/* Download Buttons */
 .btn {
   margin: 1% 1%;
 }
 
+/* containers */
 .container-fluid {
-  padding: 3% 15% 3% 15%;
-}
-
-.nd-trow {
-  padding-left: 15%;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4rem;
 }
@@ -71,12 +77,9 @@ h3 {
 }
 
 /* Features Section */
-
 #features {
-  text-align: center;
   color: #8f8f8f;
   background-color: white;
-  padding: 7% 15%;
   position: relative;
 }
 
@@ -91,6 +94,10 @@ h3 {
 }
 
 /* Testimonials Section */
+#testimonials {
+  color: #fff;
+  background-color: #ef8172;
+}
 
 #testimonials img {
   border-radius: 100%;
@@ -98,16 +105,7 @@ h3 {
   margin: 3%;
 }
 
-#testimonials {
-  text-align: center;
-  color: #fff;
-  background-color: #ef8172;
-}
-
-.carousel-item {
-  padding: 7% 15%;
-}
-
+/* Press Section */
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -120,10 +118,8 @@ h3 {
 }
 
 /* Pricing */
-
-#pricing {
-  padding: 50px 15px;
-  text-align: center;
+#pricing h1 {
+  color: #000;
 }
 
 .pricing-collum {
@@ -131,10 +127,8 @@ h3 {
 }
 
 /* Call to Action */
-
 #cta {
   background-color: #ff4c68;
-  text-align: center;
   padding: 2%;
 }
 
@@ -144,11 +138,6 @@ h3 {
 }
 
 /* Footer */
-
-#footer {
-  text-align: center;
-}
-
 #footer i {
   margin: 1% 1%;
   font-size: 30px;
@@ -159,15 +148,14 @@ h3 {
   color: grey;
 }
 
-/* Responsibility */
-
+/* Responsibility Mobile&iPad */
 @media (max-width: 1020px) {
-  .iphone {
+  .title-img {
     transform: rotate(0deg);
     position: static;
   }
 
-  .nd-trow {
+  .title-img-row {
     padding: 2% 0;
   }
 
